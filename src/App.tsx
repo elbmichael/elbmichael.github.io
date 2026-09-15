@@ -16,8 +16,8 @@ const SKILL_DOMAINS = [
     icon: "◈",
     color: "emerald",
     skills: [
-      { name: "Sysmon (Advanced Endpoint Logging)", level: 75 },
-      { name: "Wireshark / Telemetry Analysis", level: 68 },
+      { name: "Sysmon (Advanced Endpoint Logging)", level: 65 },
+      { name: "Wireshark / Telemetry Analysis", level: 60 },
       { name: "Indicators of Compromise (IoCs)", level: 70 },
       { name: "Social-Engineer Toolkit (SET) Simulation", level: 65 },
       { name: "Incident Response Fundamentals", level: 60 },
@@ -31,9 +31,9 @@ const SKILL_DOMAINS = [
     skills: [
       { name: "Cisco Packet Tracer (VLANs, ACLs, Routing)", level: 72 },
       { name: "Network Protocols (TCP/IP, DNS, DHCP)", level: 70 },
-      { name: "Linux (Kali / Parrot Security)", level: 68 },
-      { name: "Windows 10/11 Administration", level: 78 },
-      { name: "Virtualisation (UTM / Sandbox Labs)", level: 74 },
+      { name: "Linux (Kali / Parrot Security)", level: 65 },
+      { name: "Windows 10/11 Administration", level: 70 },
+      { name: "Virtualisation (UTM / Sandbox Labs)", level: 70 },
     ],
   },
   {
@@ -43,7 +43,7 @@ const SKILL_DOMAINS = [
     color: "cyan",
     skills: [
       { name: "Python", level: 58 },
-      { name: "SQL", level: 62 },
+      { name: "SQL", level: 60 },
       { name: "Systems Hardening", level: 65 },
       { name: "Access Control (IAM)", level: 60 },
       { name: "Data Governance (GDPR)", level: 80 },
@@ -321,9 +321,8 @@ function HeroSection() {
         >
           Aspiring cybersecurity analyst completing a BSc (Hons) in Cybersecurity at the
           Open University, with hands-on homelab experience in Sysmon-based endpoint
-          detection, network architecture, and systems hardening. Bringing five years of
-          fast-paced technical troubleshooting and stakeholder communication from IT
-          support into a dedicated security role.
+          detection, network architecture, and systems hardening. Brings a year of hands-on data  and IT volunteering experience, plus ongoing frontline troubleshooting of EPOS and network systems, into a methodical, detail-driven approach to security work.
+
         </p>
 
         {/* CTAs */}
@@ -357,7 +356,7 @@ function HeroSection() {
             { k: "DEGREE", v: "BSc Cybersecurity" },
             { k: "GRAD_YEAR", v: "2026" },
             { k: "CORE_PROJECTS", v: "2" },
-            { k: "IT_SUPPORT_YRS", v: "5+" },
+            { k: "IT_SUPPORT_YRS", v: "1 YR" },
           ].map(({ k, v }) => (
             <div key={k}>
               <div style={{ fontSize: "0.65rem", color: "#6b6457", letterSpacing: "0.15em" }}>{k}</div>
